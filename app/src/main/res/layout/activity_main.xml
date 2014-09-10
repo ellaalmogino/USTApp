@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:id="@+id/container"
+    tools:context=".MyActivity"
+    android:weightSum="1"
+    android:divider="#ff0c0c0c">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/textView"
+            android:background="#ff161616"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffffff"
+            android:typeface="monospace"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arch"
+            android:onClick="Arch"
+            android:id="@+id/button1"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/educ"
+            android:onClick="Educ"
+            android:id="@+id/button2"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nurse"
+            android:onClick="Nurse"
+            android:id="@+id/button3"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sci"
+            android:onClick="Science"
+            android:id="@+id/button4"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/music"
+            android:onClick="Music"
+            android:id="@+id/button5"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eng"
+            android:onClick="Engg"
+            android:id="@+id/button6"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account"
+            android:onClick="Account"
+            android:id="@+id/button7"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/commerce"
+            android:onClick="Commerce"
+            android:id="@+id/button8"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cfad"
+            android:onClick="Cfad"
+            android:id="@+id/button9"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ab"
+            android:onClick="Ab"
+            android:id="@+id/button10"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    </ScrollView>
+
+        </LinearLayout>
+
+
